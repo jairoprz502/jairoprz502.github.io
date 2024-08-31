@@ -1,0 +1,47 @@
+:root {
+    --color-light-blue: #8ecae6;
+    --color-teal: #219ebc;
+    --color-navy: #023047;
+    --color-yellow: #ffb703;
+    --color-orange: #fb8500;
+    --color-gray: #6F8191; /* Color que ya tenías en tu paleta anterior */
+    --color-highlight: #F2630D; /* Color que ya tenías en tu paleta anterior */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: var(--color-teal); /* Ajustado para usar la nueva paleta */
+    color: var(--color-navy);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #8ecae6;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--color-gray); /* Usando el color que tenías definido */
+    color: #6F8191;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Puedes cambiar este color si prefieres uno de la nueva paleta */
+}
+
+.resultado {
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--color-navy); /* Usando el color destacado que tenías antes */
+}
